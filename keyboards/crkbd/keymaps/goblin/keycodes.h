@@ -8,7 +8,7 @@ enum layers {
     _MACOS
 };
 
-enum custom_keycodes { QWERTY = SAFE_RANGE, LOWER, RAISE, ADJUST, RGBRST };
+enum custom_keycodes { QWERTY, LOWER, RAISE, ADJUST, RGBRST };
 
 #define SFT_EQ MT(MOD_LSFT, KC_EQL)
 #define SFT_QT MT(MOD_RSFT, KC_QUOT)
